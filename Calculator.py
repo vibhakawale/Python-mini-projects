@@ -1,4 +1,4 @@
-import art
+import calc_art
 
 def add(n1, n2):
     return n1 + n2
@@ -17,7 +17,7 @@ operations = {
 }
 
 def calculator():
-    print(art.logo)
+    print(calc_art.logo)
     should_accumulate = True
     num1 = float(input("What is the first number?:"))
 
